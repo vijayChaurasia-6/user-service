@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package proto;
+
+option go_package = "/github.com/test/user-service/proto/user-service.proto;proto";
+
+service User {
+  rpc Save (UserRequest) returns (UserResponse) {}
+
+  rpc Load(UserResponse) returns (UserRequest) {}
+
+}
+
+message UserRequest {
+  string id = 1;
+  string name = 2;
+  string class = 3;
+  int64 age = 4;
+}
+
+message UserResponse {
+  string id = 1;
+}
