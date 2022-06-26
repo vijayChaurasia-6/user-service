@@ -1,8 +1,8 @@
 package main
 
 import (
-	pb "github.com/test/user-service/proto"
-	"github.com/test/user-service/service"
+	pb "github.com/vijayChaurasia-6/user-service/proto"
+	"github.com/vijayChaurasia-6/user-service/service"
 	"google.golang.org/grpc"
 	"log"
 	"net"

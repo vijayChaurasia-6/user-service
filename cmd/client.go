@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
-	pb "github.com/test/user-service/proto"
+	pb "github.com/vijayChaurasia-6/user-service/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	"log"

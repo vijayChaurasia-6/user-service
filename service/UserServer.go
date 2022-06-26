@@ -2,8 +2,8 @@ package service
 
 import (
 	"context"
-	"github.com/test/user-service/model"
-	pb "github.com/test/user-service/proto"
+	"github.com/vijayChaurasia-6/user-service/model"
+	pb "github.com/vijayChaurasia-6/user-service/proto"
 	"log"
 )
 

@@ -1,4 +1,4 @@
-module github.com/test/user-service
+module github.com/vijayChaurasia-6/user-service
 
 go 1.17
 
